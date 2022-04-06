@@ -11,5 +11,5 @@ const totals = [];
         tips.push(calcTip(bills[i]));
 
         totals.push(bills[i] + tips[i]);
-        console.log(`The bill was $${bills[i]}, the tip should be $${tips[i]}, which makes the grand total $${totals}.`)
+        alert(`The bill was $${bills[i]}, the tip should be $${tips[i]}, which makes the grand total $${totals[i]}.`);
     }
